@@ -1,0 +1,7 @@
+{
+	"host_map": [
+		"$.lakersstore.com => lakersstore.com",
+		"$.lakersstore.com => www.lakersstore.com",
+		"$.edge.lakersstore.com => edge.lakersstore.com"
+	]
+}
