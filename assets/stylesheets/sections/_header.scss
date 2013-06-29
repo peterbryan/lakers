@@ -1,3 +1,13 @@
 header._header {
-  
+  border-top: 1px solid black;
+  min-height: 96px;
+  #logo{
+  	@include clearfix();
+  	@include grad1;
+  } 
+  .mw_header_bottom{
+  	@include bar1;
+  }
+
+
 }

@@ -10,6 +10,11 @@
 // Site wide variables
 @import "globals/_variables.scss";
 
+//Libary
+@import "globals/_lib.scss";
+
+
+
 // Header & Footer
 @import "sections/_header";
 @import "sections/_footer";
