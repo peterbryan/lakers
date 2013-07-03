@@ -1,4 +1,4 @@
-header._header {
+#header{
   border-top: 1px solid black;
   min-height: 96px;
   #logo{
@@ -8,6 +8,4 @@ header._header {
   .mw_header_bottom{
   	@include bar1;
   }
-
-
 }

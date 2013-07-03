@@ -24,18 +24,22 @@ $('./body') {
           $("./form") {
             $("./label") {
               remove()
-          }					 
+            }					 
           
             # Change search button background image
             $("./input[@type='image']") {
               wrap("div", class: "mw_search_btn buttons-search")
             }
 
-            $("./input[@type='form.text']") {
+            $("./input[@type='text']") {
               attribute("value", "Search…")
             } 
 
           }     
+        }
+        $$('#edit-search-block-form-1-wrapper input'){
+          attributes(value: 'Search...')
+          
         }
       }   
     }                       
